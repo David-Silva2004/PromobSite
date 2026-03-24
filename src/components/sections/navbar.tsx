@@ -41,7 +41,7 @@ export function Navbar() {
           className="text-2xl font-black tracking-tighter cursor-pointer text-primary"
           onClick={() => scrollTo("#inicio")}
         >
-          MADEIRA<span className="text-orange-500">MAR</span>
+          <span className={isScrolled ? 'text-black' : 'text-white'}>MADEIRA</span><span className={'text-blue-500'}>MAR</span>
         </div>
 
         {/* Desktop Nav */}
@@ -50,7 +50,7 @@ export function Navbar() {
             <button
               key={link.name}
               onClick={() => scrollTo(link.href)}
-              className={`text-sm font-medium transition-colors hover:text-orange-500 ${
+              className={`text-sm font-medium transition-colors hover:text-blue-500 ${
                 isScrolled ? "text-slate-700" : "text-white/90"
               }`}
             >
@@ -59,7 +59,7 @@ export function Navbar() {
           ))}
           <Button
             onClick={() => scrollTo("#contato")}
-            className="bg-orange-500 hover:bg-orange-600 text-white rounded-full px-6"
+            className="bg-blue-900 hover:bg-blue-800 text-white rounded-full px-6"
           >
             Orçamento
           </Button>
@@ -93,7 +93,7 @@ export function Navbar() {
           ))}
           <Button
             onClick={() => scrollTo("#contato")}
-            className="bg-orange-500 hover:bg-orange-600 text-white rounded-full w-full mt-2"
+            className="bg-blue-900 hover:bg-blue-800 text-white rounded-full w-full mt-2"
           >
             Solicitar Orçamento
           </Button>

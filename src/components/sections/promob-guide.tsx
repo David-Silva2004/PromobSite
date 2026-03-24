@@ -35,7 +35,7 @@ export function PromobGuide() {
             className="bg-slate-50 p-8 rounded-3xl border border-slate-100"
           >
             <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center">
-              <FileCode2 className="w-8 h-8 text-orange-500 mr-3" />
+              <FileCode2 className="w-8 h-8 text-blue-500 mr-3" />
               Passo a Passo
             </h3>
             <ul className="space-y-4">

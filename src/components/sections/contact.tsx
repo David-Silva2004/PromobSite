@@ -200,7 +200,7 @@ export function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center shrink-0 mr-4">
+                <div className="w-12 h-12 bg-blue-100 text-blue-500 rounded-full flex items-center justify-center shrink-0 mr-4">
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
@@ -211,7 +211,7 @@ export function Contact() {
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center shrink-0 mr-4">
+                <div className="w-12 h-12 bg-blue-100 text-blue-500 rounded-full flex items-center justify-center shrink-0 mr-4">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>

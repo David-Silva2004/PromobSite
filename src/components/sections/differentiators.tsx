@@ -46,9 +46,9 @@ export function Differentiators() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="flex flex-col items-center text-center p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-orange-200 hover:bg-orange-50/50 transition-colors"
+              className="flex flex-col items-center text-center p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors"
             >
-              <div className="w-16 h-16 rounded-full bg-orange-100 text-orange-500 flex items-center justify-center mb-6">
+              <div className="w-16 h-16 rounded-full bg-blue-100 text-blue-500 flex items-center justify-center mb-6">
                 {diff.icon}
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">

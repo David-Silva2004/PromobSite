@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
-import { Scissors, Layers, Settings, Ruler, Box } from "lucide-react"
+import { Scissors, Layers, Settings, Ruler, Lightbulb, Palette } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
+
+
 
 const solutions = [
   {
@@ -28,10 +30,16 @@ const solutions = [
       "Ranhuras técnicas e cortes especiais em MDF para projetos personalizados e únicos.",
   },
   {
-    icon: <Box className="w-10 h-10" />,
+    icon: <Palette className="w-10 h-10" />,
     title: "Frentes Especiais",
     description:
       "Produção de frentes especiais e acabamentos premium para agregar valor ao seu projeto.",
+  },
+  {
+    icon: <Lightbulb className="w-10 h-10" />,
+    title: "Portas De vidro",
+    description:
+      "Soluções completas em portas de vidro e espelho para projetos de alto padrão.",
   },
 ]
 
@@ -58,9 +66,9 @@ export function Solutions() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full border-none shadow-sm hover:shadow-md transition-shadow bg-white">
+              <Card className="h-full border-none shadow-sm hover:shadow-xl transition-all duration-300 bg-white hover:-translate-y-1">
                 <CardHeader>
-                  <div className="w-16 h-16 rounded-2xl bg-orange-50 text-orange-500 flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 rounded-2xl bg-blue-50 text-blue-500 flex items-center justify-center mb-4 transition-all duration-300 hover:bg-blue-500 hover:text-blue-50 hover:scale-110">
                     {solution.icon}
                   </div>
                   <CardTitle className="text-xl text-slate-900">

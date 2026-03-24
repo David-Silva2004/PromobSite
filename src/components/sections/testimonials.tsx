@@ -28,7 +28,7 @@ export function Testimonials() {
       <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5 mix-blend-overlay pointer-events-none" />
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <Quote className="w-12 h-12 text-orange-500 mx-auto mb-6 opacity-50" />
+          <Quote className="w-12 h-12 text-blue-500 mx-auto mb-6 opacity-50" />
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             O que dizem nossos parceiros
           </h2>
@@ -54,7 +54,7 @@ export function Testimonials() {
                 <h4 className="font-bold text-white text-lg">
                   {testimonial.author}
                 </h4>
-                <p className="text-orange-400 text-sm font-medium">
+                <p className="text-blue-400 text-sm font-medium">
                   {testimonial.role}
                 </p>
                 <p className="text-white/50 text-sm">{testimonial.location}</p>
